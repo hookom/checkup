@@ -1,0 +1,135 @@
+html { background-color: #222222 }
+body { background: white }
+
+table { 
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  width: 100%;
+  border: solid 1px #dbdbdb;
+}
+
+tr:nth-child(even) {
+  background:  rgba(0,104,179,.1) !important;
+}
+
+th {
+  background: #0068b3;
+  color: white !important;
+}
+
+.table tfoot {
+  background: #0068b3;
+  font-weight: bold;
+}
+.table tfoot td, .table tfoot th {
+  color: white !important;
+}
+
+a, a:visited, a:active {
+  color: black !important;
+}
+
+a:hover {
+  color: #0068b3 !important;
+}
+
+.loginContainer {
+  max-width: 650px !important;
+}
+
+.loginBtn {
+  width: 100%;
+  margin-top: 10px;
+  backgound: #0068b3 !important;
+}
+
+.editedBy {
+  color: #0068b3 !important;
+  font-size: 8px;
+  padding: 2px !important;
+  margin: 0px !important;
+  width: 90px;
+}
+
+.fadeAway {
+  -webkit-animation: fadeOut 2s forwards;
+  animation: fadeOut 2s forwards;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.boxShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.innerShadow {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.19) !important;
+}
+
+.headerContainer {
+  background: #0068b3;
+  padding: 15px;
+  display: flex;
+  height: 180px;
+}
+
+.pageHeader {
+  font-size: 38px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+.logo {
+  object-fit: scale-down;
+  width: 19%;
+  margin-left: 50px;
+}
+
+.patient {
+  display: flex;
+}
+
+.patientData {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.welcomeMsg {
+  font-size: 22px;
+}
+
+.select:not(.is-multiple) {
+   height: inherit !important;
+}
+
+.white { color: white !important; }
+
+.patient-list { max-width: 90% !important; }
+
+.form { margin-bottom: 50px; }
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+@-webkit-keyframes fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+@keyframes fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
