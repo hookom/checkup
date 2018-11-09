@@ -97,6 +97,10 @@ a:hover {
   width: 100%;
 }
 
+.linkImage {
+  cursor: pointer;
+}
+
 .welcomeMsg {
   font-size: 22px;
 }

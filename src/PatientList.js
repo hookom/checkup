@@ -6,12 +6,15 @@ import ItemsModal from './ItemsModal';
 import pie1 from './assets/pie.png';
 import track1 from './assets/track.png';
 import score1 from './assets/score.png';
+import steps1 from './assets/steps-green.png';
 import pie2 from './assets/pie2.png';
 import track2 from './assets/track2.png';
 import score2 from './assets/score2.png';
+import steps2 from './assets/steps-red.png';
 import pie3 from './assets/pie3.png';
 import track3 from './assets/track3.png';
 import score3 from './assets/score3.png';
+import steps3 from './assets/steps-yellow.png';
 
 import 'bulma/css/bulma.css';
 
@@ -25,7 +28,8 @@ class PatientList extends Component {
                 lastName: 'Rosenbaum',
                 score: score1,
                 track: track1,
-                pie: pie1
+                pie: pie1,
+                steps: steps3
             },
             {
                 id: 2,
@@ -33,7 +37,8 @@ class PatientList extends Component {
                 lastName: 'Hanagodimath',
                 score: score2,
                 track: track2,
-                pie: pie2
+                pie: pie2,
+                steps: steps1
             },
             {
                 id: 3,
@@ -41,7 +46,8 @@ class PatientList extends Component {
                 lastName: 'Hookom',
                 score: score3,
                 track: track3,
-                pie: pie3
+                pie: pie3,
+                steps: steps2
             }
         ],
         modalIsActive: false

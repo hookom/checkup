@@ -15,7 +15,8 @@ class Patient extends Component {
                 </td>
                 <td className="patientData"><img src={this.props.patient.score} width="175px" alt="score" /></td>
                 <td className="patientData"><img src={this.props.patient.track} width="300px" alt="track-chart" /></td>
-                <td className="patientData"><img src={this.props.patient.pie} width="175px" alt="pie-chart" onClick={this.props.displayModal} /></td>
+                <td className="patientData linkImage"><img src={this.props.patient.pie} width="175px" alt="pie-chart" onClick={this.props.displayModal} /></td>
+                <td className="patientData"><img src={this.props.patient.steps} width="100px" alt="step-count" /></td>
             </tr>
         );
     }
